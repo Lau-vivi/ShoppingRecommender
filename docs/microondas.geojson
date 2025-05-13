@@ -1,0 +1,113 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.6185248, -74.1243713, 14]
+      },
+      "properties": {
+        "PrecioDescuento": 219900,
+        "Precio": 267200,
+        "Alto": 25.8,
+        "Ancho": 33.4,
+        "Profundidad": 44,
+        "Capacidad": 20,
+        "Modelo": "RMM-20",
+        "Potencia": 700,
+        "Voltaje": 110
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.6182089, -74.0754951, 7]
+      },
+      "properties": {
+        "PrecioDescuento": 399900,
+        "Precio": 399900,
+        "Alto": 28.10,
+        "Ancho": 48.30,
+        "Profundidad": 40.70,
+        "Capacidad": 20,
+        "Modelo": "E09SEJ",
+        "Potencia": "No definido",
+        "Voltaje": 120
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.6798383, -78.7001208, 7]
+      },
+      "properties": {
+        "PrecioDescuento": 269900,
+        "Precio": 399900,
+        "Alto": 25.90,
+        "Ancho": 48.30,
+        "Profundidad": 32.9,
+        "Capacidad": 21.33,
+        "Modelo": "K-MW07N",
+        "Potencia": "700",
+        "Voltaje": 110
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.6418233, -74.2173598, 12]
+      },
+      "properties": {
+        "PrecioDescuento": 279000,
+        "Precio": 369900,
+        "Alto": 25.90,
+        "Ancho": 48.30,
+        "Profundidad": 32.9,
+        "Capacidad": 21.33,
+        "Modelo": "K-MW07N",
+        "Potencia": "700",
+        "Voltaje": 110
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.6418233, -74.2173598, 12]
+      },
+      "properties": {
+        "PrecioDescuento": 319000,
+        "Precio": 529900,
+        "Alto": 45,
+        "Ancho": 26.62,
+        "Profundidad": 32.9,
+        "Capacidad": 21.33,
+        "Modelo": "WM1807D",
+        "Potencia": "700",
+        "Voltaje": 110
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.6424886, -74.2173601, 12]
+      },
+      "properties": {
+        "PrecioDescuento": 299000,
+        "Precio": 507900,
+        "Alto": 38,
+        "Ancho": 26.62,
+        "Profundidad": 30,
+        "Capacidad": 22,
+        "Modelo": "MMDF07S2MG",
+        "Potencia": "700",
+        "Voltaje": 110
+      }
+    }
+  ]
+}
