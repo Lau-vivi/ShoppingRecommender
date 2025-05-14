@@ -13,29 +13,26 @@ marker.addTo(map);
 // de código se demora. se pasa a la siguiente sin esperar.
 // Esto puede generar problemas cuando se requiere secuencialidad 
 
-async function cargarPuntos(){
+async function CargarPuntos() {
+
+    var miArchivo = await fetch("microondad.geojson");
+    // Convertir el archivo a JSON
     
-    var miArchivo= await fetch("microondas.geojson");
-    //convertir el contenido a json
+    var datos = await miArchivo.json();
 
-    var datos= await miArchivo.json();
-
-    //Obtener el arreglo de la llave features que es un conjunto
-    //de objetos tipo feature
-    //let listaFeatures= datos["feature"];
-
-    //Obtener la geometria del primer elemento
-    
+    // Obtener el arreglo de la llave features
+    let listaFeatures = datos["features"];
 
     for (let i = 0; i < 10; i++) {
+        console.log(datos["features"][i]);
 
-        let misCoordenadas= listaFeatures[i]["geometry"]["coordinates"];
-        var miMarcador= L.marker(miscoordenadas);
+        // Obtener la geometría del elemento
+        let misCoordenadas = listaFeatures[i]["geometry"]["coordinates"];
+
+        var miMarcador = L.marker(misCoordenadas);
         miMarcador.addTo(map);
-    
-   
-}
+    }
 
 }
-cargarPuntos();
-//console.log(datos["features"][i]);
+
+CargarPuntos();
