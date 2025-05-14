@@ -15,7 +15,7 @@ marker.addTo(map);
 
 async function CargarPuntos() {
 
-    var miArchivo = await fetch("microondad.geojson");
+    var miArchivo = await fetch("microondas.geojson");
     // Convertir el archivo a JSON
     
     var datos = await miArchivo.json();
