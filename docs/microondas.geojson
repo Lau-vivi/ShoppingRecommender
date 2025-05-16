@@ -31,7 +31,7 @@
         "Alto": 25.9,
         "Ancho": 44,
         "Profundidad": 32.9,
-        "Capacidad": 0.7,
+        "Capacidad": 20,
         "Modelo": "K-MW07N ",
         "Potencia": 700,
         "Voltaje": 115
@@ -67,7 +67,7 @@
         "Alto": 25.9,
         "Ancho": 44.0,
         "Profundidad": 32.9,
-        "Capacidad": 0.7,
+        "Capacidad": 20,
         "Modelo": "MMDF07S2MB",
         "Potencia": "ND",
         "Voltaje": 120
@@ -157,7 +157,7 @@
         "Alto": 26.2,
         "Ancho": 45.2,
         "Profundidad": 36,
-        "Capacidad": 0.7,
+        "Capacidad": 20,
         "Modelo": "MGE07SEJ ",
         "Potencia": "ND",
         "Voltaje": 110
